@@ -72,6 +72,17 @@ void Error_Handler(void);
 #define T_SWCLK_GPIO_Port GPIOA
 #define T_SWO_Pin GPIO_PIN_3
 #define T_SWO_GPIO_Port GPIOB
+#define WHO_AM_I_REG 0x75
+#define PWR_MGMT_1_REG 0x6B
+#define SMPLRT_DIV_REG 0x19
+#define ACCEL_CONFIG_REG 0x1C
+#define ACCEL_XOUT_H_REG 0x3B
+#define TEMP_OUT_H_REG 0x41
+#define GYRO_CONFIG_REG 0x1B
+#define GYRO_XOUT_H_REG 0x43
+
+// Setup MPU6050
+#define MPU6050_ADDR 0xD0
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
