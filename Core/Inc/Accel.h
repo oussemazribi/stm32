@@ -12,7 +12,7 @@
 
 
 void calcul_jerk(void);
-
+void detection_freinage(void);
 
 float Ax;
 float Ay;
@@ -26,6 +26,7 @@ float PrevAccelAz;
 float DeltaAccelAx;
 float DeltaAccelAy;
 float DeltaAccelAz;
+float DeltaAccel;
 char msg[50];
 //char msg1[10];
 int accelcout;
